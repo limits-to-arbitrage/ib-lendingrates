@@ -1,4 +1,4 @@
-# Stock Loan Rates
+# Interactive Brokers Stock Loan Rates
 This repo holds code to scrape, store, and visualize lending rates per [Interactive Brokers](https://www.interactivebrokers.com).
 
 ### Overview of dataset
