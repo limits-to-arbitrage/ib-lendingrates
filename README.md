@@ -16,7 +16,7 @@ Where:
 * FEERATE: Loan fee rate
 * AVAILABLE: Shares available for borrow
 
-It is worth noting that `REBATERATE` above is the `FEERATE` shown net of expected interest earned on cash collateral. More specifically, if `REBATERATE` is given as $R$, the short-term risk-free rate (expected return on cash collateral) is given as $rf$, and `FEERATE` is given as $f$, then $R=rf-F$.
+It is worth noting that `REBATERATE` above is the `FEERATE` shown net of expected interest earned on cash collateral. More specifically, if `REBATERATE` is given as $R$, the short-term risk-free rate (expected return on cash collateral) is given as $rf$, and `FEERATE` is given as $F$, then $R=rf-F$.
 
 For example, take the first company lised, Agilent Technologies, Inc. (NYSE: A):
 > A|USD|AGILENT TECHNOLOGIES INC|1715006|XXXXXXXU1016|2.8137|0.2563|>10000000|
