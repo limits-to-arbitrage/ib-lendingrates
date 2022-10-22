@@ -14,4 +14,5 @@ Where Interactive Brokers notes:
 
 It is worth noting that `REBATERATE` above is the `FEERATE` shown net of expected interest earned on cash collateral. More specifically if `REBATERATE` is given as $R$, the short-term risk-free rate (expected return on cash collateral) is given as $rf$, and `FEERATE` is given as $f$, then $R=rf-F$. For example, take the first company lised, Agilent Technologies, Inc. (NYSE: A):
 > A|USD|AGILENT TECHNOLOGIES INC|1715006|XXXXXXXU1016|2.8137|0.2563|>10000000|
-The above reports stock A has a $0.2563%$ gross borrow cost and a net positive carry of $2.8137%$ after an assumed return on cash collateral of $3.07%$ ($0.2563%+2.8137%$). (Note this assumed rate is the same across all companies reported, which can be verified as $rf=R+F$.)
+
+The above reports stock A has a $0.2563%$ gross borrow cost and a net positive carry of $2.8137%$ after an assumed return on cash collateral of $3.07%$ ($0.2563%+2.8137%$). (Note this assumed rate is the same across all companies reported, which can be verified as $rf=R+F$.
