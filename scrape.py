@@ -29,8 +29,8 @@ shutil.move(file, new_name + '.txt');
 # usecols: Default DataFrame includes a null column at index 8
 # skipfooters: Last row is an end-of-file marker
 # engine: Default C engine does not support skipfooter
-df = pd.read_csv(new_name, sep='|', skiprows=1, usecols=range(8),
-                 skipfooter=1, engine='python')
+df = pd.read_csv(new_name + '.txt', sep='|', skiprows=1,
+                 usecols=range(8), skipfooter=1, engine='python')
 
 # AVAILABLE defaults to object type
 # Clean up for overflow availability marked ">10000000"
