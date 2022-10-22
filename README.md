@@ -7,7 +7,7 @@ This repo stores code to collect, store, and visualize lending rates per Interac
 > #SYM|CUR|NAME|CON|ISIN|REBATERATE|FEERATE|AVAILABLE| 
 
 Where:
-* #SYM: Stock symbol, ,  (IBKR’s and the ISIN), rebate & fee rates and shares available
+* #SYM: Stock symbol
 * CUR: Currency of denomination
 * NAME: Name
 * CON: Interactive Brokers contract identifier
