@@ -1,6 +1,6 @@
 '''
 Scrape lending rate data from Interactive Brokers.
-Return tab-delimited text file with access date in file name.
+Return csv file with access date in file name.
 '''
 
 import datetime as dt
