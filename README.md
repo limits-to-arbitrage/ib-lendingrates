@@ -1,8 +1,8 @@
 # Stock Loan Rates
-This repo holds code to collect, store, and visualize lending rates per Interactive Brokers.
+This repo holds code to collect, store, and visualize lending rates per [Interactive Brokers](https://www.interactivebrokers.com).
 
 ### Overview of dataset
-[Interactive Brokers](https://www.interactivebrokers.com) releases daily stock loan information via [public FTP](https://web.archive.org/web/20220818143558/https://ibkr.info/article/2024), outputting a pipe-delimited text file of annualized rates with the following structure:
+Interactive Brokers releases daily stock loan information via [public FTP](https://web.archive.org/web/20220818143558/https://ibkr.info/article/2024), outputting a pipe-delimited text file of annualized rates with the following structure:
 
 > #SYM|CUR|NAME|CON|ISIN|REBATERATE|FEERATE|AVAILABLE| 
 
