@@ -24,6 +24,6 @@ For example, take the first company lised, Agilent Technologies, Inc. (NYSE: A):
 The above reports stock A has a $0.2563\\%$ gross borrow cost and a net *positive* carry of $2.8137\\%$ after an assumed return on cash collateral of $3.07\\%=0.2563\\%+2.8137\\%$. (Note this assumed rate is the same across all companies reported each day, which can be verified as $rf=R+F$.)
 
 ### Overview of code
-* **Scrape:** Collecting the data is trivial as it amounts to accessing a text file via FTP. The rest is cleaning and formatting before being stored. Automated and set to run daily.
+* **Scrape:** Collect data via FTP, clean and format. Automated and set to run daily.
 * **Store:** 
 * **Visualize:**
